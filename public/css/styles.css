@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222222;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 430px;
+  height: 650px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 50px;
+}
+
+.art__1 {
+  background-size: cover;
+  background-image: url(https://s3-alpha-sig.figma.com/img/1791/ec07/c64011ab75cfe6e10fb55d40624e54cc?Expires=1663545600&Signature=AHqxycfibBBxLQBAbb5qhwKMtF8gGUmQhC9epGqdGnI7iw3j1ae9Y9DGamEGdyQYCYbC7FFE~jI6qaSUzynfkoFVuuTz2wzZPffFL~w5C~b7iNd1djQIUKQxMOLNgfgoQR0BDlD9uPrC8skXOcg3ohNXCJ2hQI82ilANFbfsqPv9nIJ2BNxnkyijy0i4BLgNy5wi0U6W~Fqt8Dls2GcIT~KSIElgGXf2Gesdb-eW5eyjAmsWjGuxN~7nYvQmOc9GIb627wGJrcJMCHwyKRIRAG9-NAykxMuz13UmZ-2MtDmb0WUeZSVfkoJT-EOAGzRDlISekDVnOXyMe9yiootC0w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  height: 290px;
+  border-radius: 15px;
+}
+
+.art__2 {
+  background-size: cover;
+  background-image: url(https://s3-alpha-sig.figma.com/img/9c29/ce23/dc1e3d576791f3edf72257af778e269b?Expires=1663545600&Signature=Dpi1gaVmCI-XbKYE8b~2hbXKZ3hDwLd9vIbiScCWnaGvAc2C99M5KX1XWIF8-SUUANINRWZVO5v10QB7uhF1mHgYoNxiMHn8AQ3uyEoYvlijlMwz8CA0vtbhUN2yH~JWXZ1htOeYxDfyyH9J55n-ye3aZZUMzZAFIiyHhVVMtcFTl2akb0K3wnCwdyS2fMx~HPF6h~jguaJr6rI5dTZIl80ukZUPlJv8B1g4vw-tGZXkanZFg7fS~Yc3QiZaShKiA05YFztMzNe4r2imuXhmLKY1meX~CAVrWA6o8NBJMeO5fPxeIbVDmTmK1cKr7EpCC4Z2FQdXG94mtRC9c4VLRQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  height: 290px;
+  border-radius: 15px;
+}
+
+.art__3 {
+  background-size: cover;
+  background-image: url(https://s3-alpha-sig.figma.com/img/0f23/8a83/33163bf4eec78fce8a51c6da15f44fc6?Expires=1663545600&Signature=Qyj2khikLTRgkYDvX7G6kT4MEGKqnFPMU8QO~do9VQKuYC-E2YbVDXPHgLJ4EkvhMLaUkiurOrfESyKGaP2dRVuDL8zSkvviUN6Hq89i8HaWWlkor50jKYNMv7oEEaHJO9lU6mYUtjqkXSfOvFkgBHIN4mQCgltpft-JPa773Z7dC98aFJtfk8aKjfCmGBT91HY2osX7ID-OfAW64H2X0zL8flSzkOnhnhtHPdwvQGu3vNMiytf7n2XyWpuMmDnHDfWWM0kMMILaEaw6e1B9WuFxRXZ9Phh9d1Suc95-RRhTgFuRHQf~ISAfm2IQKGZW0ab7RKJBmYFSphVT7PClFw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  height: 290px;
+  border-radius: 15px;
+}
+
+.title {
+  color: white;
+  display: block;
+  margin: auto;
+  padding: 119px 20px 118px 20px;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 53.25px;
+}
+
+.description {
+  text-align: start;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 30px 18px;
+}
+
+.languages {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30.26px;
+  padding: 0px 41px;
+}
+
+@media (min-width: 884px) {
+  body {
+    margin-top: 110px;
+  }
+}
